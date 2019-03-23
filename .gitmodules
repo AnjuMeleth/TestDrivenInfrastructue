@@ -1,0 +1,3 @@
+[submodule "example/chef-starter/chef-repo/cookbooks/nginx"]
+	path = example/chef-starter/chef-repo/cookbooks/nginx
+	url = https://github.com/AnjuMeleth/nginx.git

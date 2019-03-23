@@ -1,0 +1,9 @@
+chef generate cookbook nginx
+sudo kitchen list
+sudo kitchen converge
+sudo kitchen login
+yum info nginx
+sudo kitchen converge
+sudo kitchen verify
+sudo knife upload cookbooks ./cookbooks/nginx 
+sudo chef-client
