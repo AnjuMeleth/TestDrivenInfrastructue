@@ -1,0 +1,4 @@
+vi hello_test.rb
+inspec exec hello_test.rb
+vi hello.rb
+chef-apply hello.rb
