@@ -6,4 +6,6 @@ yum info nginx
 sudo kitchen converge
 sudo kitchen verify
 sudo knife upload cookbooks ./cookbooks/nginx 
+
 sudo chef-client
+knife cookbook delete nginx
